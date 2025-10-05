@@ -1,0 +1,14 @@
+/* 覆盖所有代码块样式 */
+pre, code, pre code {
+  background: none !important;
+  color: #555 !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-family: Menlo, Consolas, "Courier New", monospace !important;
+  font-size: 14px;
+}
+
+/* prismjs token 颜色也统一为灰色 */
+.token {
+  color: #555 !important;
+}
